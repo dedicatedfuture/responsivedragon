@@ -1,0 +1,33 @@
+body{
+	background-color: yellow;
+}
+
+@media all and (max-width: 401px){
+	.dragon{
+		background-image: url('https://s-media-cache-ak0.pinimg.com/236x/13/70/92/1370921319d64247c8c83570714a6428.jpg');
+		background-repeat: no-repeat;
+		width: 100vw;
+		height: 100vh;
+	
+	}
+
+
+}
+
+@media all and (max-width: 770px) and (min-width: 402px){
+	.dragon{
+		background-image: url('http://img05.deviantart.net/4d7a/i/2010/350/d/0/child_dragon_by_umedama-d34zhwx.jpg');
+		background-repeat: no-repeat;
+		width: 100vw;
+		height: 100vh;
+	}
+}
+
+@media all and (min-width: 771px){
+	.dragon{
+		background-image: url('http://img06.deviantart.net/fb9f/i/2012/290/5/0/emerald_dragon_by_sumerky-d5i2iuh.jpg');
+		background-repeat: no-repeat;
+		width: 100vw;
+		height: 100vh;
+	}
+}
